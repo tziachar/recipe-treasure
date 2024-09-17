@@ -1,0 +1,37 @@
+.container {
+    font-size: 12px; /* Smaller font size for the entire container */
+    max-width: 100%; /* Ensure the container doesn't exceed the screen width */
+    overflow-wrap: break-word; /* Break long words to fit within the container */
+  }
+  
+  .inputField {
+    font-size: 12px; /* Smaller font size for the input field */
+    padding: 4px; /* Smaller padding for the input field */
+    width: 150px; /* Smaller width for the input field */
+    margin-right: 8px; /* Space between input and button */
+  }
+  
+  .searchButton,
+  .clearButton {
+    font-size: 12px; /* Smaller font size for the button */
+    padding: 4px 8px; /* Smaller padding for the button */
+    width:min-content
+  }
+  
+  .listItem {
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 12px; /* Smaller font size for list items */
+    max-width: 100%; /* Ensure the list item doesn't exceed the screen width */
+    overflow-wrap: break-word; /* Break long words to fit within the container */
+  }
+  
+  .listItem:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+  }
+  
+  .clearButton {
+    margin-top: 8px; /* Space above the clear button */
+    margin-left: 850px;
+    width:min-content
+  }
+  

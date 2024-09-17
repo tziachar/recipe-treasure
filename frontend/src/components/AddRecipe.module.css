@@ -1,0 +1,90 @@
+/* AddRecipe.module.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 2000px;
+  }
+  
+  .treeContainer {
+    flex: 3; /* Increase the flex value to make the tree container larger */
+    margin-right: 20px;
+    max-width: 650px;
+  }
+  
+  .formContainer {
+    flex: 2; /* Decrease the flex value to make the form container smaller */
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 5px;
+  }
+  
+  .facetGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin: 10px;
+    max-width: 2000px;
+    padding: 10px 5px;
+  }
+  
+  .buttonGroup {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Place the tooltip above the text */
+    left: 50%;
+    margin-left: -90px; /* Use half of the width (90px) to center it */
+    
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .cancelButton {
+    padding: 5px 5px;
+    background-color:red;
+    margin: 10px
+  }
+
+
+  /* style={{ margin: '5px', width: '50%', backgroundColor:'green', color: 'white', marginRight: '15px', fontSize: '0.8rem', padding: '5px 10px', borderRadius: '5px'}} */

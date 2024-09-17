@@ -1,0 +1,58 @@
+#source directory
+
+
+handle-json-files/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Ignore FastAPI generated files (you may adjust if needed)
+__pycache__/ 
+.vscode/
+.pylintrc
+alembic.ini
+
+# Logs and databases
+*.log
+*.sql
+
+# Ignore local configuration file if any
+config.py
+
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/.pnp
+.pnp.js
+frontend/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
