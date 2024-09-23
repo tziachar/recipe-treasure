@@ -1,0 +1,20 @@
+# Αρχεία git
+../.git
+../.gitignore
+
+# Virtual environments
+../venv/
+__pycache__/
+
+# Αρχεία cache
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Αρχεία που δεν χρειάζονται στο container
+./source/MTX15.xlsx
+../handle-json-files/
+
+# Διάφορα τοπικά αρχεία/κατάλογοι
+.DS_Store

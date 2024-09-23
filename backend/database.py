@@ -1,14 +1,9 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
-from dotenv import load_dotenv
-import os
-from pathlib import Path
 
-dotenv_path = Path('./secret.env')
-load_dotenv(dotenv_path=dotenv_path)
-password = os.getenv("password")
 
-DATABASE_URL = f"postgresql://postgres:{password}@localhost:5432/RecipesTreasure"
+
+DATABASE_URL = "postgresql://postgresql:xxxxx@db/Recipestreasure"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

@@ -1,0 +1,11 @@
+# Αρχεία git
+.git
+.gitignore
+
+# Node modules
+node_modules/
+
+# Cache και log αρχεία
+npm-debug.log
+yarn-error.log
+.DS_Store
